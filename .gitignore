@@ -6,3 +6,4 @@ proxys.txt
 \outputs
 testcode.py
 chromedriver.exe
+.venv

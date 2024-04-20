@@ -1,0 +1,24 @@
+
+# SETUP
+- Identify High Level Required Packages
+  @ Orig Repo
+      chardet==3.0.4
+      pipdeptree==2.18.1
+      ├── packaging [required: >=23.1, installed: 24.0]
+      └── pip [required: >=23.1.2, installed: 23.2.1]
+      PySocks==1.7.1
+      requests==2.31.0
+      ├── certifi [required: >=2017.4.17, installed: 2019.9.11]
+      ├── charset-normalizer [required: >=2,<4, installed: 3.3.2]
+      ├── idna [required: >=2.5,<4, installed: 2.8]
+      └── urllib3 [required: >=1.21.1,<3, installed: 1.26.5]
+      tqdm==4.39.0
+
+
+- Install Latest based on High Level Requirements
+
+# FUNCTIONALITY
+- Define JSON Format to story proxy results
+- Modify script to output results into JSON
+- script to pass json into proxy list based on input requirements
+  -> Seems like Megabasterd needs a '*' prefix for socks proxies (https://github.com/tonikelope/megabasterd/issues/291)

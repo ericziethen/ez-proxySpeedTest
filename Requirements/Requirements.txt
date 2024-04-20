@@ -1,0 +1,6 @@
+  chardet
+  pipdeptree
+  PySocks
+  requests
+  tqdm
+  
